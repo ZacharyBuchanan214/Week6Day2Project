@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.box {
+    background-color: black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxChange {
+    background-color: grey;
+}
